@@ -54,13 +54,6 @@ ORDER BY 1,2
 -- Total population vs Vaccinations
 
 
-
-
-
-
-
-
-
 With PopsVac(continent,location,date,population,new_vaccinations,RollingPeopleVaccinated)
 as(
 Select dea.continent, dea.location,dea.date, dea.population, vac.new_vaccinations,
